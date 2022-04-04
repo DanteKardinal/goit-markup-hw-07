@@ -1,0 +1,43 @@
+@import 'utils/variables.scss';
+
+// Components
+@import 'components/logo';
+@import 'components/header';
+
+// Стили по тегам
+body {
+    background-color: $white-bgc;
+    font-family: $primary-font;
+    font-size: 14px;
+    line-height: 1.14;
+    color: $primary-text-color;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+textarea {
+    resize: none;
+}
