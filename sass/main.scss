@@ -1,43 +1,7 @@
-@import 'utils/variables.scss';
+@import 'utils/variables';
 
 // Components
+@import 'components/common';
 @import 'components/logo';
 @import 'components/header';
-
-// Стили по тегам
-body {
-    background-color: map-get($bgc, 'white');
-    font-family: $primary-font;
-    font-size: 14px;
-    line-height: 1.14;
-    color: map-get($color-text, 'primary' );
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-ul {
-    margin: 0;
-    padding: 0;
-}
-
-li {
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-}
-
-img {
-    display: block;
-    max-width: 100%;
-}
-
-textarea {
-    resize: none;
-}
+@import 'components/footer'
