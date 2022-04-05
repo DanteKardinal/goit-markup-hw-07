@@ -91,31 +91,6 @@ textarea {
   overflow: hidden;
 }
 
-/* Логотип */
-.logo {
-  font-family: "Raleway", sans-serif;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
-}
-
-.page-header__logo {
-  margin-right: 93px;
-}
-
-.logo-web {
-  color: #2196f3;
-}
-
-.logo-studio {
-  color: #000000;
-}
-
-.footer__logo-studio {
-  color: #ffffff;
-}
-
 .page-header {
   border-bottom: 1px solid #ececec;
   font-weight: 500;
@@ -356,5 +331,30 @@ textarea {
 .page-footer__icon {
   margin-left: 10px;
   fill: #ffffff;
+}
+
+/* Логотип */
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+.page-header__logo {
+  margin-right: 93px;
+}
+
+.logo-web {
+  color: #2196f3;
+}
+
+.logo-studio {
+  color: #000000;
+}
+
+.footer__logo-studio {
+  color: #ffffff;
 }
 /*# sourceMappingURL=main.css.map */
