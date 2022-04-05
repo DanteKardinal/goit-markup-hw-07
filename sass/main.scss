@@ -6,11 +6,11 @@
 
 // Стили по тегам
 body {
-    background-color: $white-bgc;
+    background-color: map-get($bgc, 'white');
     font-family: $primary-font;
     font-size: 14px;
     line-height: 1.14;
-    color: $primary-text-color;
+    color: map-get($color-text, 'primary' );
 }
 
 h1,
