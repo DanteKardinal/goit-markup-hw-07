@@ -29,12 +29,16 @@ textarea {
 }
 
 /* Общие стили */
-.title-seclion {
+.title-section {
+    margin-bottom: 50px;
+
     font-weight: bold;
     font-size: 36px;
     line-height: 42px;
     text-align: center;
-    letter-spacing: var(--primary-letter-spacing);
+    letter-spacing: $primary-letter-spacing;
+
+    color: getColorText('title');
 }
 
 .btn {
