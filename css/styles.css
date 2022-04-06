@@ -799,8 +799,7 @@ textarea {
   margin-top: calc(-1 * var(--card-set-gap));
   margin-left: calc(-1 * var(--card-set-gap));
 }
-/* .ourpjc-list {
-} */
+
 .ourpjc-link {
   margin-top: var(--card-set-gap);
   margin-left: var(--card-set-gap);
